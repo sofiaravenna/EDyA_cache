@@ -3,4 +3,4 @@ project(EDyA_cache C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(EDyA_cache main.c)
+add_executable(EDyA_cache main.c cache.c cache.h)
